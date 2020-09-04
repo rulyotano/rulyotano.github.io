@@ -14802,7 +14802,7 @@ MyApp.propTypes = {
 /*! exports provided: fullName, imageUrl, imageIconUrl, role, webSite, companyName, techStaff, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"fullName\":\"Raúl Otaño Hurtado\",\"imageUrl\":\"/img/avatar.png\",\"imageIconUrl\":\"/avatar-favicon-01.ico\",\"role\":\"Web Software Engineer\",\"webSite\":\"https://rulyotano.com\",\"companyName\":\"rulyotano\",\"techStaff\":[\"c#\",\"javascript\",\"typescript\",\"react\",\".net\",\"asp.net mvc\",\"redux\",\"flux\",\"SOLID\",\"clean code\",\"unit tests\"]}");
+module.exports = JSON.parse("{\"fullName\":\"Raúl Otaño Hurtado\",\"imageUrl\":\"/img/avatar.png\",\"imageIconUrl\":\"/avatar-favicon-01.ico\",\"role\":\"Software Engineer\",\"webSite\":\"https://rulyotano.com\",\"companyName\":\"rulyotano\",\"techStaff\":[\"c#\",\"javascript\",\"typescript\",\"react\",\".net\",\"asp.net mvc\",\"redux\",\"flux\",\"SOLID\",\"clean code\",\"unit tests\"]}");
 
 /***/ }),
 
