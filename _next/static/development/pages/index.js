@@ -51111,23 +51111,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_icons_LinkedIn__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_LinkedIn__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/Container */ "./node_modules/@material-ui/core/esm/Container/index.js");
 /* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
-/* harmony import */ var _material_ui_core_Tooltip__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/Tooltip */ "./node_modules/@material-ui/core/esm/Tooltip/index.js");
-/* harmony import */ var _material_ui_core_Chip__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/Chip */ "./node_modules/@material-ui/core/esm/Chip/index.js");
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/Box */ "./node_modules/@material-ui/core/esm/Box/index.js");
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/esm/Grid/index.js");
-/* harmony import */ var _material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/lab/Skeleton */ "./node_modules/@material-ui/lab/esm/Skeleton/index.js");
-/* harmony import */ var _src_components_Copyright__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../src/components/Copyright */ "./src/components/Copyright.tsx");
-/* harmony import */ var _src_components_Avatar__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../src/components/Avatar */ "./src/components/Avatar.tsx");
-/* harmony import */ var _src_components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../src/components/ReferenceIcon */ "./src/components/ReferenceIcon.tsx");
-/* harmony import */ var _src_components_SectionItem__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../src/components/SectionItem */ "./src/components/SectionItem.tsx");
-/* harmony import */ var _src_components_StackOverflowItem__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../src/components/StackOverflowItem */ "./src/components/StackOverflowItem.tsx");
-/* harmony import */ var _src_components_icons_StackOverflowIcon__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../src/components/icons/StackOverflowIcon */ "./src/components/icons/StackOverflowIcon.tsx");
-/* harmony import */ var _src_components_DataItem__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../src/components/DataItem */ "./src/components/DataItem.tsx");
-/* harmony import */ var _src_settings_json__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../src/settings.json */ "./src/settings.json");
-var _src_settings_json__WEBPACK_IMPORTED_MODULE_19___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../src/settings.json */ "./src/settings.json", 1);
+/* harmony import */ var _material_ui_core_Chip__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/Chip */ "./node_modules/@material-ui/core/esm/Chip/index.js");
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/Box */ "./node_modules/@material-ui/core/esm/Box/index.js");
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/esm/Grid/index.js");
+/* harmony import */ var _material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/lab/Skeleton */ "./node_modules/@material-ui/lab/esm/Skeleton/index.js");
+/* harmony import */ var _src_components_Copyright__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/components/Copyright */ "./src/components/Copyright.tsx");
+/* harmony import */ var _src_components_Avatar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../src/components/Avatar */ "./src/components/Avatar.tsx");
+/* harmony import */ var _src_components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../src/components/ReferenceIcon */ "./src/components/ReferenceIcon.tsx");
+/* harmony import */ var _src_components_SectionItem__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../src/components/SectionItem */ "./src/components/SectionItem.tsx");
+/* harmony import */ var _src_components_StackOverflowItem__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../src/components/StackOverflowItem */ "./src/components/StackOverflowItem.tsx");
+/* harmony import */ var _src_components_icons_StackOverflowIcon__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../src/components/icons/StackOverflowIcon */ "./src/components/icons/StackOverflowIcon.tsx");
+/* harmony import */ var _src_components_DataItem__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../src/components/DataItem */ "./src/components/DataItem.tsx");
+/* harmony import */ var _src_settings_json__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../src/settings.json */ "./src/settings.json");
+var _src_settings_json__WEBPACK_IMPORTED_MODULE_18___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../src/settings.json */ "./src/settings.json", 1);
 var _jsxFileName = "/Users/raulotanohurtado/mines/mui-profile/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
 
 
 
@@ -51150,18 +51148,18 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 function Index() {
   var _this = this;
 
-  var name = _src_settings_json__WEBPACK_IMPORTED_MODULE_19__.fullName;
-  var imageSrc = _src_settings_json__WEBPACK_IMPORTED_MODULE_19__.imageUrl;
-  var role = _src_settings_json__WEBPACK_IMPORTED_MODULE_19__.role;
+  var name = _src_settings_json__WEBPACK_IMPORTED_MODULE_18__.fullName;
+  var imageSrc = _src_settings_json__WEBPACK_IMPORTED_MODULE_18__.imageUrl;
+  var role = _src_settings_json__WEBPACK_IMPORTED_MODULE_18__.role;
   return __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    maxWidth: "sm",
+    maxWidth: "md",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28,
       columnNumber: 5
     }
-  }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
     my: 4,
     display: "flex",
     flexDirection: "column",
@@ -51172,7 +51170,7 @@ function Index() {
       lineNumber: 29,
       columnNumber: 7
     }
-  }, __jsx(_src_components_Avatar__WEBPACK_IMPORTED_MODULE_13__["default"], {
+  }, __jsx(_src_components_Avatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
     imgSrc: imageSrc,
     imgAlt: name,
     __self: this,
@@ -51181,7 +51179,7 @@ function Index() {
       lineNumber: 30,
       columnNumber: 9
     }
-  }), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
     m: 1,
     __self: this,
     __source: {
@@ -51209,7 +51207,7 @@ function Index() {
       lineNumber: 35,
       columnNumber: 9
     }
-  }, role), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, role), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
     m: 2,
     __self: this,
     __source: {
@@ -51217,7 +51215,7 @@ function Index() {
       lineNumber: 38,
       columnNumber: 9
     }
-  }), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
@@ -51227,16 +51225,17 @@ function Index() {
       lineNumber: 40,
       columnNumber: 9
     }
-  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
     container: true,
     spacing: 2,
+    alignItems: "flex-start",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 11
     }
-  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
     item: true,
     __self: this,
     __source: {
@@ -51244,7 +51243,7 @@ function Index() {
       lineNumber: 42,
       columnNumber: 13
     }
-  }, __jsx(_src_components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }, __jsx(_src_components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_13__["default"], {
     icon: _material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_1___default.a,
     description: "@rulyotano",
     href: "https://github.com/rulyotano",
@@ -51254,7 +51253,7 @@ function Index() {
       lineNumber: 43,
       columnNumber: 15
     }
-  })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
     item: true,
     __self: this,
     __source: {
@@ -51262,7 +51261,7 @@ function Index() {
       lineNumber: 45,
       columnNumber: 13
     }
-  }, __jsx(_src_components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }, __jsx(_src_components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_13__["default"], {
     icon: _material_ui_icons_LocationOn__WEBPACK_IMPORTED_MODULE_2___default.a,
     description: "Madrid, Spain",
     href: "https://en.wikipedia.org/wiki/Madrid",
@@ -51272,7 +51271,7 @@ function Index() {
       lineNumber: 46,
       columnNumber: 15
     }
-  })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
     item: true,
     __self: this,
     __source: {
@@ -51280,7 +51279,7 @@ function Index() {
       lineNumber: 48,
       columnNumber: 13
     }
-  }, __jsx(_src_components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }, __jsx(_src_components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_13__["default"], {
     icon: _material_ui_icons_LinkedIn__WEBPACK_IMPORTED_MODULE_4___default.a,
     description: "in/raulotanohurtado",
     href: "https://www.linkedin.com/in/raulotanohurtado/",
@@ -51290,7 +51289,7 @@ function Index() {
       lineNumber: 49,
       columnNumber: 15
     }
-  })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
     item: true,
     __self: this,
     __source: {
@@ -51298,67 +51297,67 @@ function Index() {
       lineNumber: 51,
       columnNumber: 13
     }
-  }, __jsx(_material_ui_core_Tooltip__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    title: __jsx(_src_components_StackOverflowItem__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  }, __jsx(_src_components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    icon: _src_components_icons_StackOverflowIcon__WEBPACK_IMPORTED_MODULE_16__["default"],
+    description: "stackoverflow/ra\xFAl-ota\xF1o",
+    href: "https://stackoverflow.com/users/1655482/ra%c3%bal-ota%c3%b1o",
+    expandContent: __jsx(_src_components_StackOverflowItem__WEBPACK_IMPORTED_MODULE_15__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 52,
-        columnNumber: 31
+        columnNumber: 177
       }
     }),
-    interactive: true,
-    arrow: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52,
       columnNumber: 15
     }
-  }, __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 17
-    }
-  }, __jsx(_src_components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
-    icon: _src_components_icons_StackOverflowIcon__WEBPACK_IMPORTED_MODULE_17__["default"],
-    description: "stackoverflow/ra\xFAl-ota\xF1o",
-    href: "https://stackoverflow.com/users/1655482/ra%c3%bal-ota%c3%b1o",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 22
-    }
-  })))))), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  })))), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
     m: 4,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 9
+    }
+  }), __jsx(_src_components_SectionItem__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    title: "Experience",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59,
       columnNumber: 9
     }
-  }), __jsx(_src_components_SectionItem__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    title: "Experience",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 9
-    }
-  }, __jsx(_src_components_DataItem__WEBPACK_IMPORTED_MODULE_18__["default"], {
+  }, __jsx(_src_components_DataItem__WEBPACK_IMPORTED_MODULE_17__["default"], {
     title: "Senior Software Developer",
     subtitle: "Mimacom",
     image: "https://media-exp1.licdn.com/dms/image/C4E0BAQEDnFziUBYogg/company-logo_200_200/0?e=1607558400&v=beta&t=0ji-5IEK04VUMeznqWGyaiqxs1Rfst41WQ6MbNdwPQs",
     __self: this,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 11
+    }
+  }), __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    animation: "wave",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 11
+    }
+  }), __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    animation: "wave",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 62,
       columnNumber: 11
     }
-  }), __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }), __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_10__["default"], {
     animation: "wave",
     __self: this,
     __source: {
@@ -51366,39 +51365,39 @@ function Index() {
       lineNumber: 63,
       columnNumber: 11
     }
-  }), __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    animation: "wave",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 11
-    }
-  }), __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    animation: "wave",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 11
-    }
-  })), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  })), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
     my: 2,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 9
+    }
+  }), __jsx(_src_components_SectionItem__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    title: "Education",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68,
       columnNumber: 9
     }
-  }), __jsx(_src_components_SectionItem__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    title: "Education",
+  }, __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    animation: "wave",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 11
+    }
+  }), __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    animation: "wave",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70,
-      columnNumber: 9
+      columnNumber: 11
     }
-  }, __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }), __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_10__["default"], {
     animation: "wave",
     __self: this,
     __source: {
@@ -51406,81 +51405,65 @@ function Index() {
       lineNumber: 71,
       columnNumber: 11
     }
-  }), __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    animation: "wave",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 11
-    }
-  }), __jsx(_material_ui_lab_Skeleton__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    animation: "wave",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 11
-    }
-  })), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  })), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
     my: 2,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 9
+    }
+  }), __jsx(_src_components_SectionItem__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    title: "Tech staff",
+    initiallyExpanded: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 76,
       columnNumber: 9
     }
-  }), __jsx(_src_components_SectionItem__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    title: "Tech staff",
-    initiallyExpanded: true,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 9
-    }
-  }, _src_settings_json__WEBPACK_IMPORTED_MODULE_19__.techStaff.map(function (staff) {
-    return __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, _src_settings_json__WEBPACK_IMPORTED_MODULE_18__.techStaff.map(function (staff) {
+    return __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
       display: "inline-block",
       key: staff,
       m: 0.5,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79,
+        lineNumber: 77,
         columnNumber: 44
       }
-    }, __jsx(_material_ui_core_Chip__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    }, __jsx(_material_ui_core_Chip__WEBPACK_IMPORTED_MODULE_7__["default"], {
       label: staff,
       onDelete: function onDelete() {},
       deleteIcon: __jsx(_material_ui_icons_Done__WEBPACK_IMPORTED_MODULE_3___default.a, {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79,
+          lineNumber: 77,
           columnNumber: 145
         }
       }),
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79,
+        lineNumber: 77,
         columnNumber: 92
       }
     }));
-  })), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  })), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
     my: 2,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 80,
       columnNumber: 9
     }
-  }), __jsx(_src_components_Copyright__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }), __jsx(_src_components_Copyright__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 82,
       columnNumber: 9
     }
   })));
@@ -51604,17 +51587,24 @@ function Copyright() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return DataItem; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
-/* harmony import */ var _material_ui_core_Card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Card */ "./node_modules/@material-ui/core/esm/Card/index.js");
-/* harmony import */ var _material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/CardActions */ "./node_modules/@material-ui/core/esm/CardActions/index.js");
-/* harmony import */ var _material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/CardContent */ "./node_modules/@material-ui/core/esm/CardContent/index.js");
-/* harmony import */ var _material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/CardMedia */ "./node_modules/@material-ui/core/esm/CardMedia/index.js");
-/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
-/* harmony import */ var _ExpandButton__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ExpandButton */ "./src/components/ExpandButton.tsx");
-var _jsxFileName = "/Users/raulotanohurtado/mines/mui-profile/src/components/DataItem.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_core_Card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Card */ "./node_modules/@material-ui/core/esm/Card/index.js");
+/* harmony import */ var _material_ui_core_Hidden__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Hidden */ "./node_modules/@material-ui/core/esm/Hidden/index.js");
+/* harmony import */ var _material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/CardActions */ "./node_modules/@material-ui/core/esm/CardActions/index.js");
+/* harmony import */ var _material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/CardContent */ "./node_modules/@material-ui/core/esm/CardContent/index.js");
+/* harmony import */ var _material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/CardMedia */ "./node_modules/@material-ui/core/esm/CardMedia/index.js");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _ExpandButton__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ExpandButton */ "./src/components/ExpandButton.tsx");
+
+
+var _jsxFileName = "/Users/raulotanohurtado/mines/mui-profile/src/components/DataItem.tsx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 
@@ -51633,15 +51623,21 @@ function DataItem(_ref) {
       _ref$content = _ref.content,
       content = _ref$content === void 0 ? null : _ref$content;
   var classes = useStyles();
-  return __jsx(_material_ui_core_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(false),
+      _React$useState2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
+      isExpanded = _React$useState2[0],
+      setIsExpanded = _React$useState2[1];
+
+  return __jsx(_material_ui_core_Card__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: classes.root,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 19,
       columnNumber: 5
     }
-  }, __jsx(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_7__["default"], {
     component: "img",
     alt: title,
     height: "100",
@@ -51651,65 +51647,110 @@ function DataItem(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 20,
       columnNumber: 7
     }
-  }), __jsx(_material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: classes.content,
+  }), __jsx(_material_ui_core_Hidden__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    xsDown: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 28,
       columnNumber: 7
     }
-  }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, __jsx(Content, {
+    classes: classes,
+    title: title,
+    subtitle: subtitle,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  })), __jsx(Actions, {
+    isExpanded: isExpanded,
+    setIsExpanded: setIsExpanded,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 7
+    }
+  }));
+}
+
+var Content = function Content(_ref2) {
+  var classes = _ref2.classes,
+      title = _ref2.title,
+      subtitle = _ref2.subtitle;
+  return __jsx(_material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    className: classes.content,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 11
+    }
+  }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8__["default"], {
     gutterBottom: true,
     variant: "h6",
     component: "h2",
     noWrap: true,
-    __self: this,
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 9
+      lineNumber: 39,
+      columnNumber: 5
     }
-  }, title), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, title), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8__["default"], {
     variant: "body2",
     color: "textSecondary",
     component: "p",
     noWrap: true,
-    __self: this,
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 9
+      lineNumber: 42,
+      columnNumber: 5
     }
-  }, subtitle)), __jsx(_material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __self: this,
+  }, subtitle));
+};
+
+var Actions = function Actions(_ref3) {
+  var isExpanded = _ref3.isExpanded,
+      setIsExpanded = _ref3.setIsExpanded;
+  return __jsx(_material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 7
+      lineNumber: 49,
+      columnNumber: 11
     }
-  }, __jsx(_ExpandButton__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __self: this,
+  }, __jsx(_ExpandButton__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    expanded: isExpanded,
+    onClick: function onClick() {
+      return setIsExpanded(!isExpanded);
+    },
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 9
+      lineNumber: 50,
+      columnNumber: 5
     }
-  })));
-}
-var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])(function (theme) {
+  }));
+};
+
+var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["makeStyles"])(function (theme) {
   return {
     root: {
       width: "100%",
-      height: 100,
       display: "flex",
       justifyContent: "space-between"
     },
     content: {
-      flexBasis: "auto"
+      flexGrow: 1,
+      overflow: "hidden"
     },
     image: {
       width: 150
@@ -51800,14 +51841,20 @@ var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["ma
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ReferenceIcon; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Box */ "./node_modules/@material-ui/core/esm/Box/index.js");
-/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Link */ "./node_modules/@material-ui/core/esm/Link/index.js");
-/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Box */ "./node_modules/@material-ui/core/esm/Box/index.js");
+/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Link */ "./node_modules/@material-ui/core/esm/Link/index.js");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _ExpandButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ExpandButton */ "./src/components/ExpandButton.tsx");
+/* harmony import */ var _material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/Collapse */ "./node_modules/@material-ui/core/esm/Collapse/index.js");
+
 var _jsxFileName = "/Users/raulotanohurtado/mines/mui-profile/src/components/ReferenceIcon.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
 
 
 
@@ -51818,52 +51865,91 @@ function ReferenceIcon(_ref) {
       _ref$description = _ref.description,
       description = _ref$description === void 0 ? "" : _ref$description,
       _ref$href = _ref.href,
-      href = _ref$href === void 0 ? "" : _ref$href;
+      href = _ref$href === void 0 ? "" : _ref$href,
+      expandContent = _ref.expandContent;
   var classes = useStyles();
-  return __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__["default"], {
+
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(false),
+      _React$useState2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
+      isExpanded = _React$useState2[0],
+      setIsExpanded = _React$useState2[1];
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    height: 48,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx(Icon, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    ml: 1,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 9
+    }
+  }, href ? __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    href: href,
+    color: "inherit",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 19
+    }
+  }, description) : description), expandContent ? __jsx(_ExpandButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    expanded: isExpanded,
+    onClick: function onClick() {
+      return setIsExpanded(!isExpanded);
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 26
+    }
+  }) : null), __jsx(_material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    "in": isExpanded,
+    timeout: "auto",
+    unmountOnExit: true,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 7
+    }
+  }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__["default"], {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 5
+      lineNumber: 31,
+      columnNumber: 9
     }
-  }, __jsx(Icon, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 7
-    }
-  }), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    ml: 1,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 7
-    }
-  }), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 7
-    }
-  }, href ? __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    href: href,
-    color: "inherit",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 17
-    }
-  }, description) : description));
+  }, expandContent)));
 }
-var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])(function (theme) {
+var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["makeStyles"])(function (theme) {
   return {
     root: {}
   };

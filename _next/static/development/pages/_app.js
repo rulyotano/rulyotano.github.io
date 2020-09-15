@@ -14826,6 +14826,15 @@ var theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__["create
     background: {
       "default": _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["grey"][900]
     }
+  },
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 500,
+      md: 960,
+      lg: 1280,
+      xl: 1920
+    }
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (theme);
