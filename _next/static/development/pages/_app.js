@@ -14945,7 +14945,7 @@ MyApp.propTypes = {
 /*! exports provided: entry, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"entry\":[{\"id\":\"39557330\",\"hash\":\"e89be15befffd43fc19416cc613d8c32\",\"requestHash\":\"rulyotano\",\"profileUrl\":\"http://gravatar.com/rulyotano\",\"preferredUsername\":\"rulyotano\",\"thumbnailUrl\":\"http://1.gravatar.com/avatar/e89be15befffd43fc19416cc613d8c32\",\"photos\":[{\"value\":\"http://1.gravatar.com/avatar/e89be15befffd43fc19416cc613d8c32\",\"type\":\"thumbnail\"}],\"name\":{\"givenName\":\"Raúl\",\"familyName\":\"Otaño Hurtado\",\"formatted\":\"Raúl Otaño Hurtado\"},\"displayName\":\"Raúl\",\"currentLocation\":\"Spain\",\"emails\":[{\"primary\":\"true\",\"value\":\"rulyotano@gmail.com\"}],\"ims\":[{\"type\":\"gtalk\",\"value\":\"rulyotano@gmail.com\"},{\"type\":\"skype\",\"value\":\"rulyotano@gmail.com\"}],\"urls\":[]}]}");
+module.exports = JSON.parse("{\"entry\":[{\"id\":\"39557330\",\"hash\":\"e89be15befffd43fc19416cc613d8c32\",\"requestHash\":\"rulyotano\",\"profileUrl\":\"http://gravatar.com/rulyotano\",\"preferredUsername\":\"rulyotano\",\"thumbnailUrl\":\"https://1.gravatar.com/avatar/e89be15befffd43fc19416cc613d8c32\",\"photos\":[{\"value\":\"https://1.gravatar.com/avatar/e89be15befffd43fc19416cc613d8c32\",\"type\":\"thumbnail\"}],\"name\":{\"givenName\":\"Raúl\",\"familyName\":\"Otaño Hurtado\",\"formatted\":\"Raúl Otaño Hurtado\"},\"displayName\":\"Raúl\",\"currentLocation\":\"Spain\",\"emails\":[{\"primary\":\"true\",\"value\":\"rulyotano@gmail.com\"}],\"ims\":[{\"type\":\"gtalk\",\"value\":\"rulyotano@gmail.com\"},{\"type\":\"skype\",\"value\":\"rulyotano@gmail.com\"}],\"urls\":[]}]}");
 
 /***/ }),
 
