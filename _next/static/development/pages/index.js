@@ -50965,12 +50965,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var components_SectionItem__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! components/SectionItem */ "./src/components/SectionItem.tsx");
 /* harmony import */ var components_StackOverflowItem__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! components/StackOverflowItem */ "./src/components/StackOverflowItem.tsx");
 /* harmony import */ var components_icons_StackOverflowIcon__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! components/icons/StackOverflowIcon */ "./src/components/icons/StackOverflowIcon.tsx");
-/* harmony import */ var components_Appbar__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! components/Appbar */ "./src/components/Appbar.tsx");
-/* harmony import */ var components_DataItem__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! components/DataItem */ "./src/components/DataItem.tsx");
-/* harmony import */ var settings_json__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! settings.json */ "./src/settings.json");
-var settings_json__WEBPACK_IMPORTED_MODULE_20___namespace = /*#__PURE__*/__webpack_require__.t(/*! settings.json */ "./src/settings.json", 1);
-/* harmony import */ var gravatar_json__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! gravatar.json */ "./src/gravatar.json");
-var gravatar_json__WEBPACK_IMPORTED_MODULE_21___namespace = /*#__PURE__*/__webpack_require__.t(/*! gravatar.json */ "./src/gravatar.json", 1);
+/* harmony import */ var components_icons_HackerrankIcon__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! components/icons/HackerrankIcon */ "./src/components/icons/HackerrankIcon.tsx");
+/* harmony import */ var components_icons_CodesignalIcon__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! components/icons/CodesignalIcon */ "./src/components/icons/CodesignalIcon.tsx");
+/* harmony import */ var components_Appbar__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! components/Appbar */ "./src/components/Appbar.tsx");
+/* harmony import */ var components_DataItem__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! components/DataItem */ "./src/components/DataItem.tsx");
+/* harmony import */ var settings_json__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! settings.json */ "./src/settings.json");
+var settings_json__WEBPACK_IMPORTED_MODULE_22___namespace = /*#__PURE__*/__webpack_require__.t(/*! settings.json */ "./src/settings.json", 1);
+/* harmony import */ var gravatar_json__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! gravatar.json */ "./src/gravatar.json");
+var gravatar_json__WEBPACK_IMPORTED_MODULE_23___namespace = /*#__PURE__*/__webpack_require__.t(/*! gravatar.json */ "./src/gravatar.json", 1);
 
 var _jsxFileName = "C:\\Personal\\mui-profile\\pages\\index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -50996,14 +50998,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
+
+
 function Index() {
   var _this = this;
 
-  var name = settings_json__WEBPACK_IMPORTED_MODULE_20__.fullName;
-  var imageSrc = settings_json__WEBPACK_IMPORTED_MODULE_20__.imageUrl;
-  var role = settings_json__WEBPACK_IMPORTED_MODULE_20__.role;
+  var name = settings_json__WEBPACK_IMPORTED_MODULE_22__.fullName;
+  var imageSrc = settings_json__WEBPACK_IMPORTED_MODULE_22__.imageUrl;
+  var role = settings_json__WEBPACK_IMPORTED_MODULE_22__.role;
 
-  var _gravatar$entry = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(gravatar_json__WEBPACK_IMPORTED_MODULE_21__.entry, 1),
+  var _gravatar$entry = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(gravatar_json__WEBPACK_IMPORTED_MODULE_23__.entry, 1),
       gravatarItem = _gravatar$entry[0];
 
   var profileImage = "".concat(gravatarItem.thumbnailUrl, "?s=160");
@@ -51011,14 +51015,14 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 34,
       columnNumber: 5
     }
-  }, __jsx(components_Appbar__WEBPACK_IMPORTED_MODULE_18__["default"], {
+  }, __jsx(components_Appbar__WEBPACK_IMPORTED_MODULE_20__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 35,
       columnNumber: 7
     }
   }), __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -51026,7 +51030,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 36,
       columnNumber: 7
     }
   }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -51037,7 +51041,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 37,
       columnNumber: 9
     }
   }, __jsx(components_Avatar__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -51046,7 +51050,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 38,
       columnNumber: 11
     }
   }), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -51054,7 +51058,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 39,
       columnNumber: 11
     }
   }), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -51065,7 +51069,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 11
     }
   }, name), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -51076,7 +51080,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 11
     }
   }, role), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -51084,7 +51088,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 11
     }
   }), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -51096,7 +51100,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 48,
       columnNumber: 11
     }
   }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -51106,7 +51110,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 55,
       columnNumber: 13
     }
   }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -51114,7 +51118,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 56,
       columnNumber: 15
     }
   }, __jsx(components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -51124,7 +51128,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 57,
       columnNumber: 17
     }
   })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -51132,7 +51136,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 63,
       columnNumber: 15
     }
   }, __jsx(components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -51142,7 +51146,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 64,
       columnNumber: 17
     }
   })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -51150,7 +51154,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 70,
       columnNumber: 15
     }
   }, __jsx(components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -51160,7 +51164,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 71,
       columnNumber: 17
     }
   })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -51168,7 +51172,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 77,
       columnNumber: 15
     }
   }, __jsx(components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -51179,14 +51183,14 @@ function Index() {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 80,
+        lineNumber: 82,
         columnNumber: 34
       }
     }),
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 78,
       columnNumber: 17
     }
   })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -51194,7 +51198,43 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 85,
+      columnNumber: 15
+    }
+  }, __jsx(components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    icon: components_icons_HackerrankIcon__WEBPACK_IMPORTED_MODULE_18__["default"],
+    description: "hackerrank/rulyotano",
+    href: "https://www.hackerrank.com/rulyotano",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 17
+    }
+  })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    item: true,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92,
+      columnNumber: 15
+    }
+  }, __jsx(components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    icon: components_icons_CodesignalIcon__WEBPACK_IMPORTED_MODULE_19__["default"],
+    description: "codesignal/rulyotano",
+    href: "https://app.codesignal.com/profile/rulyotano",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93,
+      columnNumber: 17
+    }
+  })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    item: true,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
       columnNumber: 15
     }
   }, __jsx(components_ReferenceIcon__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -51203,7 +51243,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 100,
       columnNumber: 17
     }
   })))), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -51211,7 +51251,7 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 108,
       columnNumber: 11
     }
   }), __jsx(components_SectionItem__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -51219,11 +51259,11 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 110,
       columnNumber: 11
     }
-  }, settings_json__WEBPACK_IMPORTED_MODULE_20__.experience.map(function (it) {
-    return __jsx(components_DataItem__WEBPACK_IMPORTED_MODULE_19__["default"], {
+  }, settings_json__WEBPACK_IMPORTED_MODULE_22__.experience.map(function (it) {
+    return __jsx(components_DataItem__WEBPACK_IMPORTED_MODULE_21__["default"], {
       key: it.title,
       title: it.title,
       place: it.place,
@@ -51231,37 +51271,6 @@ function Index() {
       image: it.image,
       timePeriod: it.timePeriod,
       contentParagraphs: it.contentParagraphs,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 96,
-        columnNumber: 15
-      }
-    });
-  })), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    my: 2,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 108,
-      columnNumber: 11
-    }
-  }), __jsx(components_SectionItem__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    title: "Education",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110,
-      columnNumber: 11
-    }
-  }, settings_json__WEBPACK_IMPORTED_MODULE_20__.education.map(function (it) {
-    return __jsx(components_DataItem__WEBPACK_IMPORTED_MODULE_19__["default"], {
-      key: it.title,
-      title: it.title,
-      place: it.place,
-      placeUrl: it.placeUrl,
-      image: it.image,
-      timePeriod: it.timePeriod,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -51274,7 +51283,38 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 124,
+      columnNumber: 11
+    }
+  }), __jsx(components_SectionItem__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    title: "Education",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 126,
+      columnNumber: 11
+    }
+  }, settings_json__WEBPACK_IMPORTED_MODULE_22__.education.map(function (it) {
+    return __jsx(components_DataItem__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      key: it.title,
+      title: it.title,
+      place: it.place,
+      placeUrl: it.placeUrl,
+      image: it.image,
+      timePeriod: it.timePeriod,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 128,
+        columnNumber: 15
+      }
+    });
+  })), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    my: 2,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139,
       columnNumber: 11
     }
   }), __jsx(components_SectionItem__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -51283,10 +51323,10 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 141,
       columnNumber: 11
     }
-  }, settings_json__WEBPACK_IMPORTED_MODULE_20__.techStaff.map(function (staff) {
+  }, settings_json__WEBPACK_IMPORTED_MODULE_22__.techStaff.map(function (staff) {
     return __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_10__["default"], {
       display: "inline-block",
       key: staff,
@@ -51294,7 +51334,7 @@ function Index() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 127,
+        lineNumber: 143,
         columnNumber: 15
       }
     }, __jsx(_material_ui_core_Chip__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -51304,14 +51344,14 @@ function Index() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128,
+          lineNumber: 144,
           columnNumber: 70
         }
       }),
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 128,
+        lineNumber: 144,
         columnNumber: 17
       }
     }));
@@ -51320,14 +51360,14 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 149,
       columnNumber: 11
     }
   }), __jsx(components_Copyright__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 151,
       columnNumber: 11
     }
   }))));
@@ -52049,6 +52089,7 @@ function ReferenceIcon(_ref) {
     }
   }, href ? __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_4__["default"], {
     href: href,
+    target: "_blank",
     color: "inherit",
     __self: this,
     __source: {
@@ -52367,6 +52408,8 @@ function ApplicationBar(_ref) {
       onClose = _ref$onClose === void 0 ? function () {} : _ref$onClose;
   var classes = useStyles();
   var projects = settings_json__WEBPACK_IMPORTED_MODULE_18__.projects;
+  var articles = settings_json__WEBPACK_IMPORTED_MODULE_18__.articles;
+  var readBooks = settings_json__WEBPACK_IMPORTED_MODULE_18__.recommendedBooks;
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({}),
       opened = _useState[0],
@@ -52388,7 +52431,7 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 54,
       columnNumber: 5
     }
   }, __jsx(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -52398,14 +52441,14 @@ function ApplicationBar(_ref) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54,
+        lineNumber: 56,
         columnNumber: 9
       }
     }, "@", settings_json__WEBPACK_IMPORTED_MODULE_18__.companyName),
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 55,
       columnNumber: 7
     }
   }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -52416,21 +52459,21 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 61,
       columnNumber: 9
     }
   }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 62,
       columnNumber: 11
     }
   }, __jsx(_material_ui_icons_Apps__WEBPACK_IMPORTED_MODULE_6___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 63,
       columnNumber: 13
     }
   })), __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -52438,7 +52481,7 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 65,
       columnNumber: 11
     }
   }), __jsx(components_ExpandButton__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -52446,7 +52489,7 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 67,
       columnNumber: 11
     }
   })), __jsx(_material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -52456,7 +52499,7 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 71,
       columnNumber: 9
     }
   }, projects.map(function (it) {
@@ -52471,7 +52514,7 @@ function ApplicationBar(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70,
+        lineNumber: 72,
         columnNumber: 31
       }
     });
@@ -52483,21 +52526,21 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 76,
       columnNumber: 9
     }
   }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 77,
       columnNumber: 11
     }
   }, __jsx(_material_ui_icons_Description__WEBPACK_IMPORTED_MODULE_12___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 78,
       columnNumber: 13
     }
   })), __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -52505,7 +52548,7 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 80,
       columnNumber: 11
     }
   }), __jsx(components_ExpandButton__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -52513,7 +52556,7 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 82,
       columnNumber: 11
     }
   })), __jsx(_material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -52523,17 +52566,22 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 86,
       columnNumber: 9
     }
-  }, __jsx(ArticlesMenuItem, {
-    level: 1,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85,
-      columnNumber: 11
-    }
+  }, articles.map(function (it) {
+    return __jsx(ArticlesMenuItem, {
+      key: it.title,
+      level: 1,
+      name: it.title,
+      web: it.web,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 87,
+        columnNumber: 31
+      }
+    });
   })), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
     button: true,
     onClick: function onClick() {
@@ -52542,29 +52590,29 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 91,
       columnNumber: 9
     }
   }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 92,
       columnNumber: 11
     }
   }, __jsx(_material_ui_icons_MenuBook__WEBPACK_IMPORTED_MODULE_14___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 93,
       columnNumber: 13
     }
   })), __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    primary: "Read Books",
+    primary: "Recommended Books",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 95,
       columnNumber: 11
     }
   }), __jsx(components_ExpandButton__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -52572,7 +52620,7 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 97,
       columnNumber: 11
     }
   })), __jsx(_material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -52582,17 +52630,22 @@ function ApplicationBar(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 101,
       columnNumber: 9
     }
-  }, __jsx(ReadBooksMenuItem, {
-    level: 1,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100,
-      columnNumber: 11
-    }
+  }, readBooks.map(function (it) {
+    return __jsx(ReadBooksMenuItem, {
+      key: it.title,
+      level: 1,
+      name: it.title,
+      web: it.web,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 102,
+        columnNumber: 32
+      }
+    });
   }))));
 }
 
@@ -52617,7 +52670,7 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 137,
       columnNumber: 5
     }
   }, __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -52625,7 +52678,7 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132,
+      lineNumber: 138,
       columnNumber: 7
     }
   }), __jsx(components_ExpandButton__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -52633,7 +52686,7 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 139,
       columnNumber: 7
     }
   })), __jsx(_material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -52643,7 +52696,7 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 142,
       columnNumber: 5
     }
   }, __jsx(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -52652,7 +52705,7 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 143,
       columnNumber: 7
     }
   }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -52660,7 +52713,7 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 145,
       columnNumber: 9
     }
   }, github ? __jsx(_material_ui_core_Tooltip__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -52668,7 +52721,7 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 146,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -52678,21 +52731,21 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 147,
       columnNumber: 13
     }
   }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 148,
       columnNumber: 15
     }
   }, __jsx(_material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_13___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 149,
       columnNumber: 17
     }
   })))) : null, web ? __jsx(_material_ui_core_Tooltip__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -52700,43 +52753,11 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
-      columnNumber: 18
-    }
-  }, __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    href: web,
-    color: "inherit",
-    target: "_blank",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 148,
-      columnNumber: 39
-    }
-  }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 149,
-      columnNumber: 13
-    }
-  }, __jsx(_material_ui_icons_Language__WEBPACK_IMPORTED_MODULE_15___default.a, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 150,
-      columnNumber: 15
-    }
-  })))) : null, npm ? __jsx(_material_ui_core_Tooltip__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    title: "Npm",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 154,
       columnNumber: 18
     }
   }, __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    href: npm,
+    href: web,
     color: "inherit",
     target: "_blank",
     __self: this,
@@ -52752,11 +52773,43 @@ function ProjectMenuItem(props) {
       lineNumber: 155,
       columnNumber: 13
     }
-  }, __jsx(components_icons_NpmIcon__WEBPACK_IMPORTED_MODULE_16__["default"], {
+  }, __jsx(_material_ui_icons_Language__WEBPACK_IMPORTED_MODULE_15___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 156,
+      columnNumber: 15
+    }
+  })))) : null, npm ? __jsx(_material_ui_core_Tooltip__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    title: "Npm",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 160,
+      columnNumber: 18
+    }
+  }, __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    href: npm,
+    color: "inherit",
+    target: "_blank",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 160,
+      columnNumber: 39
+    }
+  }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 161,
+      columnNumber: 13
+    }
+  }, __jsx(components_icons_NpmIcon__WEBPACK_IMPORTED_MODULE_16__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 162,
       columnNumber: 15
     }
   })))) : null, nuget ? __jsx(_material_ui_core_Tooltip__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -52764,7 +52817,7 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 166,
       columnNumber: 20
     }
   }, __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -52774,21 +52827,21 @@ function ProjectMenuItem(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 166,
       columnNumber: 43
     }
   }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 167,
       columnNumber: 13
     }
   }, __jsx(components_icons_NugetIcon__WEBPACK_IMPORTED_MODULE_17__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 168,
       columnNumber: 15
     }
   })))) : null))));
@@ -52796,44 +52849,68 @@ function ProjectMenuItem(props) {
 
 function ArticlesMenuItem(props) {
   var classes = useStyles(props);
+  var name = props.name,
+      web = props.web;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
     className: classes.menuItem,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 184,
       columnNumber: 5
     }
-  }, __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    primary: "Coming Soon...",
+  }, __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    href: web,
+    color: "inherit",
+    target: "_blank",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 185,
       columnNumber: 7
     }
-  })));
+  }, __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    primary: name,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 186,
+      columnNumber: 9
+    }
+  }))));
 }
 
 function ReadBooksMenuItem(props) {
   var classes = useStyles(props);
+  var name = props.name,
+      web = props.web;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
     className: classes.menuItem,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 197,
       columnNumber: 5
     }
-  }, __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    primary: "Coming Soon...",
+  }, __jsx(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    href: web,
+    color: "inherit",
+    target: "_blank",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188,
+      lineNumber: 198,
       columnNumber: 7
     }
-  })));
+  }, __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    primary: name,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199,
+      columnNumber: 9
+    }
+  }))));
 }
 
 /***/ }),
@@ -52873,6 +52950,128 @@ function StackOverflowItem() {
       fileName: _jsxFileName,
       lineNumber: 5,
       columnNumber: 78
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./src/components/icons/CodesignalIcon.tsx":
+/*!*************************************************!*\
+  !*** ./src/components/icons/CodesignalIcon.tsx ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return CodesignalIcon; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
+var _jsxFileName = "C:\\Personal\\mui-profile\\src\\components\\icons\\CodesignalIcon.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function CodesignalIcon(_ref) {
+  var _ref$height = _ref.height,
+      height = _ref$height === void 0 ? null : _ref$height,
+      _ref$width = _ref.width,
+      width = _ref$width === void 0 ? null : _ref$width,
+      _ref$useOriginalColor = _ref.useOriginalColor,
+      useOriginalColor = _ref$useOriginalColor === void 0 ? false : _ref$useOriginalColor;
+  var theme = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["useTheme"])();
+  var color = useOriginalColor ? "#1d9dd8" : theme.palette.text.primary;
+  var heightValue = height || theme.spacing(3);
+  var widthValue = width || theme.spacing(3);
+  return __jsx("svg", {
+    id: "Layer_1",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 768 768",
+    width: widthValue,
+    height: heightValue,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 5
+    }
+  }, __jsx("path", {
+    fill: color,
+    d: "M0 0h768v768H0z",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }), __jsx("path", {
+    d: "M85.8 158.1l229.1 41L384 471l69.1-272 229.1-41-41.6 64-142.7 20.5-17.9 57.7 92.2-10.2-30.7 50.6-76.2 7L384 609.9l-81.3-262.4-76.8-7-30.1-50.6 91.5 9.6-17.3-57.6-142.7-19.8-41.5-64z",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./src/components/icons/HackerrankIcon.tsx":
+/*!*************************************************!*\
+  !*** ./src/components/icons/HackerrankIcon.tsx ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return HackerRankIcon; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
+var _jsxFileName = "C:\\Personal\\mui-profile\\src\\components\\icons\\HackerrankIcon.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function HackerRankIcon(_ref) {
+  var _ref$height = _ref.height,
+      height = _ref$height === void 0 ? null : _ref$height,
+      _ref$width = _ref.width,
+      width = _ref$width === void 0 ? null : _ref$width,
+      _ref$useOriginalColor = _ref.useOriginalColor,
+      useOriginalColor = _ref$useOriginalColor === void 0 ? false : _ref$useOriginalColor;
+  var theme = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["useTheme"])();
+  var color = useOriginalColor ? "#00B760" : theme.palette.text.primary;
+  var heightValue = height || theme.spacing(3);
+  var widthValue = width || theme.spacing(3);
+  return __jsx("svg", {
+    version: "1.1",
+    id: "Layer_4",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    x: "0px",
+    y: "0px",
+    width: widthValue,
+    height: heightValue,
+    viewBox: "0 0 612 648",
+    enableBackground: "new 0 0 612 648",
+    xmlSpace: "preserve",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 5
+    }
+  }, __jsx("path", {
+    fill: color,
+    d: "M580.529,165.226C562.556,134.278,341.907,6.45,305.981,6.45c-35.922,0-256.662,127.509-274.538,158.775\r c-17.877,31.271-17.972,286.291-0.003,317.557C49.415,514.047,270.077,641.55,305.981,641.55s256.584-127.664,274.544-158.771\r C598.484,451.67,598.498,196.174,580.529,165.226z M380.366,520.256c-4.916,0-50.74-44.372-47.136-47.993\r c1.081-1.082,7.77-1.842,21.77-2.273v-1.198c0-27.956,0.646-79.77,1.16-105.877c0.052-2.51-0.55-4.251-0.55-7.251\r c-33.316,0-65.843,0-99.146,0c0,12-0.211,24.915,0.044,37.634c0.332,16.795,0.814,35.986,1.651,52.764\r c0.28,5.635-1.956,7.396-7.124,7.374c-12.57-0.035-25.148-0.139-37.726-0.104c-5.085,0.015-7.277-1.893-7.121-7.573\r c0.955-34.525,1.963-71.89,1.926-106.424C208.075,298.029,207,223.256,206,181.951v-3.929c-12-0.433-20.324-1.194-21.411-2.287\r c-3.622-3.618,42.846-47.989,47.742-47.989c4.906,0,51.073,44.382,47.47,47.989c-1.083,1.084-9.801,1.844-20.801,2.278v3.925\r c-3,31.937-2.52,98.725-3.262,130.725c33.72,0,66.259,0,99.555,0c0-13,0.163-25.011-0.031-37.038\r c-0.341-21.233-0.771-45.488-1.46-66.717c-0.13-4.205,1.176-6.413,5.224-6.447c13.734-0.096,27.477-0.157,41.217-0.069\r c4.297,0.021,5.674,2.136,5.58,6.679c-0.908,47.6-2.284,97.997-2.429,145.608C403.306,383.333,404,437.89,405,468.257v1.72\r c11,0.432,20.86,1.195,21.946,2.286C430.552,475.884,385.275,520.256,380.366,520.256z",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
     }
   }));
 }
@@ -53187,10 +53386,10 @@ module.exports = JSON.parse("{\"entry\":[{\"id\":\"39557330\",\"hash\":\"e89be15
 /*!***************************!*\
   !*** ./src/settings.json ***!
   \***************************/
-/*! exports provided: fullName, imageUrl, imageIconUrl, role, webSite, companyName, techStaff, experience, education, projects, default */
+/*! exports provided: fullName, imageUrl, imageIconUrl, role, webSite, companyName, techStaff, experience, education, projects, articles, recommendedBooks, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"fullName\":\"Raúl Otaño Hurtado\",\"imageUrl\":\"https://lh3.googleusercontent.com/pw/ACtC-3dSRq5XYgA45W4sFsiJ1UFBQl4t4fMUaN1u9PVADihUX2k-n-suB_M9lF9oF6BAHVa1BZYYQ2j2hGyJKwyYMhl1o5vPA7PoEG66l9Cai7eLZWd3tlcx48kjIW8pdeQaXaX8BceTB3uBgNavYQJqkjH8hw\",\"imageIconUrl\":\"/avatar-favicon-01.ico\",\"role\":\"Software Engineer\",\"webSite\":\"https://rulyotano.com\",\"companyName\":\"rulyotano\",\"techStaff\":[\"c#\",\"javascript\",\"typescript\",\"react\",\".net\",\"asp.net mvc\",\"redux\",\"flux\",\"SOLID\",\"clean code\",\"unit tests\"],\"experience\":[{\"title\":\"Back End Developer (.NET) at DocPlanner\",\"place\":\"DocPlanner\",\"placeUrl\":\"https://www.docplanner.com/about-us\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3eAdZYp96so-BMbxGty_qum7xEBApzC39b0q3MhLujo6_7-2acXmN-Uk9at4yzwacVdVFG99mM3D9BgZjqz0k0xP3Ytg_UR0lGkebzs-ATQaRJgEh9-EqC-v69EdVg8XzDAxqh5-StHFRKUioLIMRSGLw\",\"timePeriod\":\"2021/03 - actually\",\"contentParagraphs\":[]},{\"title\":\"Senior Software Developer\",\"place\":\"Mimacom\",\"placeUrl\":\"https://mimacom.com\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3eff4oY4kxz2EnFykM7JL1eeed-Cjak9NdJg2qLBMGX3k7DB2OiWxlw1abPi2zDfcu3Kn-RGS3z8mYMn0lwEq0rX62L5-cSjYHmulDJaS227hAJOSEM0scENJyUzz7UnYRnLETsw21dtC40RKiQ9LTpmw\",\"timePeriod\":\"2020/07 - 2021/03\",\"contentParagraphs\":[\"Worked as frontend ReactJs developer for a company's client, an international bank name Openbank. Worked there in one specific project created from scratch, created with good practices and patterns.\"]},{\"title\":\"Full Stack Developer\",\"place\":\"Consol Freight LLC\",\"placeUrl\":\"https://consolfreight.com\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3fTn39b_g3K6nCYsI4OkuEP_jBgkr4zLcOR_KATKLuwbZPk2YI0Irr1OBoDbRTbFCU6xt9PUMPnCNfpksJLMnD-Il5eFJ9Jd_0wAQy3Q37FEp1mUsdpgyZuGg2jR72V7ecUGSt9rq7l38AmqiZMHNnYGg\",\"timePeriod\":\"2018/04 - 2020/06\",\"contentParagraphs\":[\"Lead software developer for developing and maintaining the platform system. It was like a social network for moving maritime charges. The API system was made on ASP.NET MVC CORE with C# and with .NET tech in general. The front-end part was done using React.js tech.\"]},{\"title\":\"Web Developer\",\"place\":\"Solinftec\",\"placeUrl\":\"https://solinftec.com\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3fYfddxp5HeZPvTQErQTWmvnHr7UKkF89bvyxN-_Rr5uXsWxfuTjL0a7R6XL8bxGb5_juCAOL9FINT_FvVm4VZadd-9xXKofHgLJGa2iEerbR2rr2GjhINqtRK0NC7alkjErrL3HuFbLj0sqxrb3_YsiQ\",\"timePeriod\":\"2016/08 - 2018/08\",\"contentParagraphs\":[\"Lead frontend Software Develop for creating the online system for monitoring the agriculture pieces of equipment. Need to show maps with area and movements, tracking of measured parameters, data analysis, data charts, tables, etc. Done using AngularJs, and ReactJs. The part of the maps was done with GoogleMaps and Mapbox.\"]},{\"title\":\"Software Developer\",\"place\":\"Xmovo\",\"placeUrl\":\"https://www.linkedin.com/company/xmovo-group-inc/about\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3fsZOG5XlOxyiCcNlN3K5aqHjogvoTjxczWh3nXbWkR_KsUzN_bFALww8Y7kQZbqlnnQ3Gq1bLmIbbjdn_CjflLkiTPcCo8oA_aCgCSJyLjusKQh4zJ7HealXfmi9qkVe1R1zExBR4V5N5OM2Pj9TEmBQ\",\"timePeriod\":\"2014/09 - 2016/08\",\"contentParagraphs\":[\"Web Developer for creating Xmovo, a social network for training and fitness. Was developed using .NET technologies: Asp.NET MVC 5, C#, Angular JS, and then React JS, Signal-R, DDD, SOLID principles, and others.\"]},{\"title\":\"Lead Software Developer\",\"place\":\"Hayco\",\"placeUrl\":\"http://www.hayco.icrt.cu/\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3eQJriRcdCJkRizjvFIXeKjIIh-YQMBt_SiHeBfZL_GjvNprUeBsxlLcb1OQcIz0oEUHSV-Wm3lSxWFfHaRnzprzCXnbeSRS7egD1xwU3_kkoWLOhRLk4mJY3OczUKucsGi4BNMfkk-OB-d1V7NMN-zaw\",\"timePeriod\":\"2014/11 - 2015/12\",\"contentParagraphs\":[\"Develop and maintain all kind of software in the company. Mainly on .NET technologies.\"]}],\"education\":[{\"title\":\"Computer Science Bachelor of Science (BSc)\",\"place\":\"University of Havana\",\"placeUrl\":\"http://www.uh.cu\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3eU2fJDzygIqoFlfDqF1-MmM2MfyHQYMx6qnRv1hf07lbF-BtvJ-MTXdqMsJT7kdTQqur1wZYihHUJAhBYuI_zW67_tzJlUiVaXj_vhNiVYIIiVB75xL6ZyIDKorHn2_veH_77OG_wqDVP4Edwsq1Z71A\",\"timePeriod\":\"2007/09 - 2013/05\"}],\"projects\":[{\"title\":\"Rulyotano.Math\",\"github\":\"https://github.com/rulyotano/Rulyotano.Math\",\"nuget\":\"https://www.nuget.org/packages/Rulyotano.Math\"},{\"title\":\"Tree Extended\",\"github\":\"https://github.com/rulyotano/tree-extended\",\"npm\":\"https://www.npmjs.com/package/tree-extended\"},{\"title\":\"Mines Sweeper\",\"github\":\"https://github.com/rulyotano/minesweeper\",\"web\":\"https://webminesweeper.azurewebsites.net/mines-sweeper\"},{\"title\":\"Mimacom Test\",\"github\":\"https://github.com/rulyotano/mimacom_react_task\",\"web\":\"https://mimacom-shop.azurewebsites.net/\"}]}");
+module.exports = JSON.parse("{\"fullName\":\"Raúl Otaño Hurtado\",\"imageUrl\":\"https://lh3.googleusercontent.com/pw/ACtC-3dSRq5XYgA45W4sFsiJ1UFBQl4t4fMUaN1u9PVADihUX2k-n-suB_M9lF9oF6BAHVa1BZYYQ2j2hGyJKwyYMhl1o5vPA7PoEG66l9Cai7eLZWd3tlcx48kjIW8pdeQaXaX8BceTB3uBgNavYQJqkjH8hw\",\"imageIconUrl\":\"/avatar-favicon-01.ico\",\"role\":\"Software Engineer\",\"webSite\":\"https://rulyotano.com\",\"companyName\":\"rulyotano\",\"techStaff\":[\"c#\",\"javascript\",\"typescript\",\"react\",\".net\",\"asp.net mvc\",\"redux\",\"flux\",\"SOLID\",\"clean code\",\"unit tests\",\"python\",\"problem solving\",\"algorithms\",\"TDD\",\"DDD\"],\"experience\":[{\"title\":\"Back End Developer (.NET) at DocPlanner\",\"place\":\"DocPlanner\",\"placeUrl\":\"https://www.docplanner.com/about-us\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3eAdZYp96so-BMbxGty_qum7xEBApzC39b0q3MhLujo6_7-2acXmN-Uk9at4yzwacVdVFG99mM3D9BgZjqz0k0xP3Ytg_UR0lGkebzs-ATQaRJgEh9-EqC-v69EdVg8XzDAxqh5-StHFRKUioLIMRSGLw\",\"timePeriod\":\"2021/03 - actually\",\"contentParagraphs\":[]},{\"title\":\"Senior Software Developer\",\"place\":\"Mimacom\",\"placeUrl\":\"https://mimacom.com\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3eff4oY4kxz2EnFykM7JL1eeed-Cjak9NdJg2qLBMGX3k7DB2OiWxlw1abPi2zDfcu3Kn-RGS3z8mYMn0lwEq0rX62L5-cSjYHmulDJaS227hAJOSEM0scENJyUzz7UnYRnLETsw21dtC40RKiQ9LTpmw\",\"timePeriod\":\"2020/07 - 2021/03\",\"contentParagraphs\":[\"Worked as frontend ReactJs developer for a company's client, an international bank name Openbank. Worked there in one specific project created from scratch, created with good practices and patterns.\"]},{\"title\":\"Full Stack Developer\",\"place\":\"Consol Freight LLC\",\"placeUrl\":\"https://consolfreight.com\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3fTn39b_g3K6nCYsI4OkuEP_jBgkr4zLcOR_KATKLuwbZPk2YI0Irr1OBoDbRTbFCU6xt9PUMPnCNfpksJLMnD-Il5eFJ9Jd_0wAQy3Q37FEp1mUsdpgyZuGg2jR72V7ecUGSt9rq7l38AmqiZMHNnYGg\",\"timePeriod\":\"2018/04 - 2020/06\",\"contentParagraphs\":[\"Lead software developer for developing and maintaining the platform system. It was like a social network for moving maritime charges. The API system was made on ASP.NET MVC CORE with C# and with .NET tech in general. The front-end part was done using React.js tech.\"]},{\"title\":\"Web Developer\",\"place\":\"Solinftec\",\"placeUrl\":\"https://solinftec.com\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3fYfddxp5HeZPvTQErQTWmvnHr7UKkF89bvyxN-_Rr5uXsWxfuTjL0a7R6XL8bxGb5_juCAOL9FINT_FvVm4VZadd-9xXKofHgLJGa2iEerbR2rr2GjhINqtRK0NC7alkjErrL3HuFbLj0sqxrb3_YsiQ\",\"timePeriod\":\"2016/08 - 2018/08\",\"contentParagraphs\":[\"Lead frontend Software Develop for creating the online system for monitoring the agriculture pieces of equipment. Need to show maps with area and movements, tracking of measured parameters, data analysis, data charts, tables, etc. Done using AngularJs, and ReactJs. The part of the maps was done with GoogleMaps and Mapbox.\"]},{\"title\":\"Software Developer\",\"place\":\"Xmovo\",\"placeUrl\":\"https://www.linkedin.com/company/xmovo-group-inc/about\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3fsZOG5XlOxyiCcNlN3K5aqHjogvoTjxczWh3nXbWkR_KsUzN_bFALww8Y7kQZbqlnnQ3Gq1bLmIbbjdn_CjflLkiTPcCo8oA_aCgCSJyLjusKQh4zJ7HealXfmi9qkVe1R1zExBR4V5N5OM2Pj9TEmBQ\",\"timePeriod\":\"2014/09 - 2016/08\",\"contentParagraphs\":[\"Web Developer for creating Xmovo, a social network for training and fitness. Was developed using .NET technologies: Asp.NET MVC 5, C#, Angular JS, and then React JS, Signal-R, DDD, SOLID principles, and others.\"]},{\"title\":\"Lead Software Developer\",\"place\":\"Hayco\",\"placeUrl\":\"http://www.hayco.icrt.cu/\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3eQJriRcdCJkRizjvFIXeKjIIh-YQMBt_SiHeBfZL_GjvNprUeBsxlLcb1OQcIz0oEUHSV-Wm3lSxWFfHaRnzprzCXnbeSRS7egD1xwU3_kkoWLOhRLk4mJY3OczUKucsGi4BNMfkk-OB-d1V7NMN-zaw\",\"timePeriod\":\"2014/11 - 2015/12\",\"contentParagraphs\":[\"Develop and maintain all kind of software in the company. Mainly on .NET technologies.\"]}],\"education\":[{\"title\":\"Computer Science Bachelor of Science (BSc)\",\"place\":\"University of Havana\",\"placeUrl\":\"http://www.uh.cu\",\"image\":\"https://lh3.googleusercontent.com/pw/ACtC-3eU2fJDzygIqoFlfDqF1-MmM2MfyHQYMx6qnRv1hf07lbF-BtvJ-MTXdqMsJT7kdTQqur1wZYihHUJAhBYuI_zW67_tzJlUiVaXj_vhNiVYIIiVB75xL6ZyIDKorHn2_veH_77OG_wqDVP4Edwsq1Z71A\",\"timePeriod\":\"2007/09 - 2013/05\"}],\"projects\":[{\"title\":\"Rulyotano.Math\",\"github\":\"https://github.com/rulyotano/Rulyotano.Math\",\"nuget\":\"https://www.nuget.org/packages/Rulyotano.Math\"},{\"title\":\"Tree Extended\",\"github\":\"https://github.com/rulyotano/tree-extended\",\"npm\":\"https://www.npmjs.com/package/tree-extended\"},{\"title\":\"Mines Sweeper\",\"github\":\"https://github.com/rulyotano/minesweeper\",\"web\":\"https://webminesweeper.azurewebsites.net/mines-sweeper\"},{\"title\":\"Mimacom Test\",\"github\":\"https://github.com/rulyotano/mimacom_react_task\",\"web\":\"https://mimacom-shop.azurewebsites.net/\"}],\"articles\":[{\"title\":\"Interpolate 2D points, usign Bezier curves in WPF\",\"web\":\"https://www.codeproject.com/Articles/769055/Interpolate-D-points-usign-Bezier-curves-in-WPF\"}],\"recommendedBooks\":[{\"title\":\"Clean Code\",\"web\":\"https://www.goodreads.com/book/show/3735293-clean-code\"},{\"title\":\".NET Microservices: Architecture for Containerized .NET Applications\",\"web\":\"https://docs.microsoft.com/en-us/dotnet/architecture/microservices/\"},{\"title\":\"Clean Architecture\",\"web\":\"https://www.goodreads.com/book/show/18043011-clean-architecture\"},{\"title\":\"Cracking the Coding Interview\",\"web\":\"http://www.crackingthecodinginterview.com\"}]}");
 
 /***/ }),
 
